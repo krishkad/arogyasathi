@@ -67,7 +67,7 @@ export default function NavigationLayout({ children }: NavigationLayoutProps) {
                     <Menu className="w-5 h-5" />
                   </Button>
                 </SheetTrigger>
-                <SheetContent side="left" className="w-80">
+                <SheetContent side="left" className="w-80 p-8">
                   <SheetHeader>
                     <SheetTitle className="flex items-center space-x-2">
                       <div className="w-8 h-8 bg-gradient-to-r from-green-400 to-green-600 rounded-lg flex items-center justify-center">

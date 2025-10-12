@@ -91,9 +91,9 @@ const Index = () => {
                   <CardHeader>
                     <div className={`w-12 h-12 rounded-xl flex items-center justify-center mb-4 ${
                       feature.color === 'primary' ? 'bg-gradient-to-r from-green-400 to-green-600' :
-                      feature.color === 'secondary' ? 'bg-gradient-secondary' :
+                      feature.color === 'secondary' ? 'bg-gradient-to-r from-rose-400 to-rose-600' :
                       feature.color === 'destructive' ? 'bg-destructive' :
-                      'bg-accent-blue'
+                      'bg-blue-500'
                     }`}>
                       <Icon className="w-6 h-6 text-white" />
                     </div>
