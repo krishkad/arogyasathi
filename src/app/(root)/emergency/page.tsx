@@ -1,11 +1,11 @@
 "use client";
 
 
-import { useState } from "react";
-import { AlertTriangle, Phone, MapPin, Send, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { AlertTriangle, Clock, MapPin, Phone, Send } from "lucide-react";
+import { useState } from "react";
 
 const emergencyContacts = [
   { name: "National Emergency", number: "112", description: "Police, Fire, Medical Emergency" },

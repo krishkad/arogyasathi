@@ -1,15 +1,15 @@
 "use client";
 
 
-import { useState } from "react";
-import { User, Edit, Save, Camera, Shield, Heart, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Textarea } from "@/components/ui/textarea";
 import { Switch } from "@/components/ui/switch";
+import { Textarea } from "@/components/ui/textarea";
+import { Camera, Edit, Heart, Phone, Save, Shield, User } from "lucide-react";
+import { useState } from "react";
 
 export default function UserProfile() {
   const [isEditing, setIsEditing] = useState(false);
@@ -46,7 +46,7 @@ export default function UserProfile() {
           {/* Header */}
           <div className="text-center mb-8">
             <div className="relative inline-block">
-              <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-20 h-20 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <User className="w-10 h-10 text-white" />
               </div>
               <Button 

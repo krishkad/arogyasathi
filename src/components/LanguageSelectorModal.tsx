@@ -33,7 +33,7 @@ export default function LanguageSelectorModal({ isOpen, onLanguageSelect }: Lang
     <Dialog open={isOpen} onOpenChange={() => {}}>
       <DialogContent className="sm:max-w-md mx-4 rounded-2xl border-0 bg-gradient-subtle">
         <DialogHeader className="text-center space-y-4">
-          <div className="mx-auto w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center">
+          <div className="mx-auto w-16 h-16 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center">
             <Globe className="w-8 h-8 text-white" />
           </div>
           <DialogTitle className="text-2xl font-bold text-foreground">

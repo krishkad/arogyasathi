@@ -41,24 +41,24 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-subtle pb-20 lg:pb-8">
+    <div className="min-h-screen bg-secondary pb-20 lg:pb-8">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Hero Section */}
         <div className="text-center mb-8">
           <div className="mb-8">
             <div className="mx-auto max-w-2xl rounded-2xl shadow-card overflow-hidden">
-              {/* <Image
-                src={"heroImage"}
+              <Image
+                src={"/hero-healthcare.jpg"}
                 alt="ArogyaSathi Healthcare Assistant - Trusted medical guidance for rural communities"
                 width={1200}
                 height={600}
                 className="w-full h-auto object-cover"
                 priority
-              /> */}
+              />
             </div>
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-4">
             Welcome to <span className="text-primary">ArogyaSathi</span>
           </h1>
 
@@ -90,7 +90,7 @@ const Index = () => {
                 <Card className="card-health hover:shadow-card transition-all duration-300 hover:scale-102 h-full">
                   <CardHeader>
                     <div className={`w-12 h-12 rounded-xl flex items-center justify-center mb-4 ${
-                      feature.color === 'primary' ? 'bg-gradient-primary' :
+                      feature.color === 'primary' ? 'bg-gradient-to-r from-green-400 to-green-600' :
                       feature.color === 'secondary' ? 'bg-gradient-secondary' :
                       feature.color === 'destructive' ? 'bg-destructive' :
                       'bg-accent-blue'

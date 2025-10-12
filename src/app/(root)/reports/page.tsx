@@ -1,11 +1,11 @@
 "use client";
 
 
-import { useState } from "react";
-import { FileText, Download, Calendar, User, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Calendar, Download, FileText, Heart } from "lucide-react";
+import { useState } from "react";
 
 interface HealthReport {
   id: string;
@@ -78,7 +78,7 @@ export default function Reports() {
           
           {/* Header */}
           <div className="text-center mb-8">
-            <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
               <FileText className="w-8 h-8 text-white" />
             </div>
             <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
