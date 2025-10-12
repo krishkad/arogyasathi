@@ -1,16 +1,19 @@
 // src/components/HealthTipCard.tsx
 "use client";
 
-import React from "react";
-import { Icon as LucideIcon } from "lucide-react"; // type helper
 import { Utensils } from "lucide-react";
+import React from "react";
 
 type Props = {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   Icon?: React.ComponentType<any>;
   tip?: string;
 };
 
-export default function HealthTipCard({ Icon = Utensils, tip = "Eat a balanced breakfast and drink plenty of water." }: Props) {
+export default function HealthTipCard({
+  Icon = Utensils,
+  tip = "Eat a balanced breakfast and drink plenty of water.",
+}: Props) {
   return (
     <div className="card-health p-4 rounded-2xl bg-card border border-border shadow-sm">
       <div className="flex items-start space-x-4">

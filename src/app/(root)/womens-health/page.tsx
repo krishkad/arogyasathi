@@ -36,7 +36,7 @@ const educationTopics = [
   {
     title: "Nutrition for Women",
     description:
-      "Dietary guidelines and nutritional needs specific to women's health.",
+      "Dietary guidelines and nutritional needs specific to Women&apos;s health.",
     category: "Nutrition",
     readTime: "6 min read",
   },
@@ -59,11 +59,11 @@ export default function WomensHealth() {
             <Heart className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Women's Health Hub
+            Women&apos;s Health Hub
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Comprehensive health information and support designed specifically
-            for women's unique health needs.
+            for women&apos;s unique health needs.
           </p>
         </div>
 
@@ -71,16 +71,16 @@ export default function WomensHealth() {
         <Card className="card-women mb-8">
           <CardContent className="p-6 text-center">
             <h3 className="text-xl font-semibold text-foreground mb-2">
-              Have a Women's Health Question?
+              Have a Women&apos;s Health Question?
             </h3>
             <p className="text-muted-foreground mb-4">
-              Get personalized guidance from our specialized women's health
+              Get personalized guidance from our specialized Women&apos;s health
               assistant
             </p>
             <Link href={"/chatbot"}>
               <Button className="btn-secondary">
                 <Heart className="w-4 h-4 mr-2" />
-                Start Women's Health Chat
+                Start Women&apos;s Health Chat
               </Button>
             </Link>
           </CardContent>
@@ -157,7 +157,7 @@ export default function WomensHealth() {
             <Users className="w-12 h-12 mx-auto mb-4 opacity-90" />
             <h3 className="text-xl font-semibold mb-2">Need Support?</h3>
             <p className="mb-4 opacity-90">
-              Connect with our women's health specialists for personalized
+              Connect with our Women&apos;s health specialists for personalized
               guidance and support.
             </p>
             <Button
