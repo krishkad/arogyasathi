@@ -38,7 +38,7 @@ export async function POST(req: NextRequest) {
     }
 
     const response = await openai.chat.completions.create({
-      model: "mistralai/mistral-small-3.2-24b-instruct:free",
+      model: "mistralai/mistral-nemo:free",
       messages: [
         {
           role: "user",
